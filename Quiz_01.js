@@ -4061,7 +4061,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.homeBtn.addEventListener("click", f2_ClickToGoToHomePage);
 		function f2_ClickToGoToHomePage() {
-			document.location.replace("http://127.0.0.1:8090/Home.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/Home.html");
 		}
 		
 		this.nextBtn.addEventListener("click", f2_ClickToGoToAndStopAtFrame.bind(this));
@@ -4110,7 +4110,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.homeBtn.addEventListener("click", f2_ClickToGoToHomePage);
 		function f2_ClickToGoToHomePage() {
-			document.location.replace("http://127.0.0.1:8090/Home.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/Home.html");
 		}
 		
 		this.nextBtn.addEventListener("click", f3_ClickToGoToAndStopAtFrame.bind(this));
@@ -4174,7 +4174,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.homeBtn.addEventListener("click", f4_ClickToGoToHomePage);
 		function f4_ClickToGoToHomePage() {
-			document.location.replace("http://127.0.0.1:8090/Home.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/Home.html");
 		}
 		
 		this.nextBtn.addEventListener("click", f4_ClickToGoToAndStopAtFrame.bind(this));
@@ -4238,7 +4238,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.homeBtn.addEventListener("click", f5_ClickToGoToHomePage);
 		function f5_ClickToGoToHomePage() {
-			document.location.replace("http://127.0.0.1:8090/Home.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/Home.html");
 		}
 		
 		this.nextBtn.addEventListener("click", f5_ClickToGoToAndStopAtFrame.bind(this));
@@ -4310,7 +4310,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.homeBtn.addEventListener("click", f6_ClickToGoToHomePage);
 		function f6_ClickToGoToHomePage() {
-			document.location.replace("http://127.0.0.1:8090/Home.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/Home.html");
 		}
 		
 		this.nextBtn.addEventListener("click", f6_ClickToGoToAndStopAtFrame.bind(this));
@@ -4367,7 +4367,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.homeBtn.addEventListener("click", f7_ClickToGoToHomePage);
 		function f7_ClickToGoToHomePage() {
-			document.location.replace("http://127.0.0.1:8090/Home.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/Home.html");
 		}
 		
 		this.nextBtn.addEventListener("click", f7_ClickToGoToAndStopAtFrame.bind(this));
@@ -4439,7 +4439,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.homeBtn.addEventListener("click", f8_ClickToGoToHomePage);
 		function f8_ClickToGoToHomePage() {
-			document.location.replace("http://127.0.0.1:8090/Home.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/Home.html");
 		}
 		
 		this.nextBtn.addEventListener("click", f8_ClickToGoToAndStopAtFrame.bind(this));
@@ -4496,7 +4496,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.homeBtn.addEventListener("click", f9_ClickToGoToHomePage);
 		function f9_ClickToGoToHomePage() {
-			document.location.replace("http://127.0.0.1:8090/Home.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/Home.html");
 		}
 		
 		this.nextBtn.addEventListener("click", f9_ClickToGoToAndStopAtFrame.bind(this));
@@ -4553,7 +4553,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.homeBtn.addEventListener("click", f10_ClickToGoToHomePage);
 		function f10_ClickToGoToHomePage() {
-			document.location.replace("http://127.0.0.1:8090/Home.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/Home.html");
 		}
 		
 		this.nextBtn.addEventListener("click", f10_ClickToGoToAndStopAtFrame.bind(this));
@@ -4582,7 +4582,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("popsound");
 			
 			setTimeout(function(){
-			document.location.replace("http://127.0.0.1:8090/QuizMenu.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/QuizMenu.html");
 			}, 500);	
 		}
 	}
