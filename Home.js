@@ -350,7 +350,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("swordsound");
 			
 			setTimeout(function(){
-			document.location.replace("http://127.0.0.1:8090/QuizMenu.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/QuizMenu.html");
 		    }, 1000);
 		}
 		
@@ -359,7 +359,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("swordsound");
 			
 			setTimeout(function(){
-			document.location.replace("http://127.0.0.1:8090/LessonMenu.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/LessonMenu.html");
 			}, 1000);
 		}
 		
@@ -369,7 +369,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("swordsound");
 			
 			setTimeout(function(){
-			document.location.replace("http://127.0.0.1:8090/CreditMenu.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/CreditMenu.html");
 			}, 1000);
 		}
 		
