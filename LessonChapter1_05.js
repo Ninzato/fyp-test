@@ -3343,7 +3343,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("popsound");
 			
 			setTimeout(function(){
-			document.location.replace("http://127.0.0.1:8090/Home.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/Home.html");
 			}, 500);
 		}
 		
@@ -3354,7 +3354,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("popsound");
 			
 			setTimeout(function(){
-			document.location.replace("http://127.0.0.1:8090/LessonChapter1_06.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/LessonChapter1_06.html");
 			}, 500);
 			
 		}
@@ -3365,7 +3365,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("popsound");
 			
 			setTimeout(function(){
-			document.location.replace("http://127.0.0.1:8090/LessonChapter1_04.html");
+			document.location.replace("https://ninzato.github.io/fyp-test/LessonChapter1_04.html");
 			}, 500);
 			
 		}
