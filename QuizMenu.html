@@ -22,7 +22,7 @@
   }
 </style>
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-<script src="QuizMenu.js?1655308852436"></script>
+<script src="QuizMenu.js?1655329270960"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -32,6 +32,7 @@ function init() {
 	var comp=AdobeAn.getComposition("A6F1A483617F544186FFC32FE4892FD2");
 	var lib=comp.getLibrary();
 	var loader = new createjs.LoadQueue(false);
+	loader.installPlugin(createjs.Sound);
 	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
 	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
 	var lib=comp.getLibrary();
@@ -64,6 +65,8 @@ function handleComplete(evt,comp) {
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
+function playSound(id, loop, offset) {
+	return createjs.Sound.play(id, {'interrupt':createjs.Sound.INTERRUPT_EARLY, 'loop': loop, 'offset': offset});}
 </script>
 <!-- write your code here -->
 </head>
